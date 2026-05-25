@@ -13,6 +13,7 @@
                     Console.WriteLine("Försöker läsa fil och räkna...");
                     var path = Path.Combine(AppContext.BaseDirectory, "numbers.txt");
                     var result = ProcessFile(path);
+                    Console.WriteLine("Look, I don't have to do mean things.");
                   
                     Console.WriteLine($"\nResultat: {result}");
                 }
