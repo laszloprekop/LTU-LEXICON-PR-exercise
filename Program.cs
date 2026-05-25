@@ -6,6 +6,10 @@
         {
             {
                 Console.WriteLine("=== Start av programmet ===");
+                foreach (var item in WallOfText())
+                {
+                    Console.WriteLine(item);
+                }
 
                 // Exempel 1: try-catch-finally
                 try
@@ -43,6 +47,15 @@
                 }
 
                 Console.WriteLine("Programmet avslutas normalt.");
+            }
+            List<String> WallOfText()
+            {
+                List<String> Text = new List<string>();
+                Text.Add("-----------------------------------");
+                Text.Add("-----------------------------------");
+                Text.Add("-----------------------------------");
+                Text.Add("-----------------------------------");
+                return Text;
             }
 
             // Exempel på metod som själv kastar ett undantag (throw)
