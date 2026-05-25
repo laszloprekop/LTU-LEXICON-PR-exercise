@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             {
+                return;
                 Console.WriteLine("=== Start av programmet ===");
                 foreach (var item in WallOfText())
                 {
